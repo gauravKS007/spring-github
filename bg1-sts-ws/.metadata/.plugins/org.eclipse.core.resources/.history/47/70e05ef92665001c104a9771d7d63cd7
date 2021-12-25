@@ -1,0 +1,16 @@
+package dom.ui;
+
+import java.util.List;
+
+import dom.model.Product;
+import dom.repository.ProductRepository;
+import dom.repository.ProductRepositoryImpl;
+
+public class App {
+	public static void main(String[] args) {
+		System.out.println("Starter Enterprise setup");
+		ProductRepository productRepository = new ProductRepositoryImpl();
+		List<Product> products = productRepository.findAll();
+        for(Product )
+	}
+}

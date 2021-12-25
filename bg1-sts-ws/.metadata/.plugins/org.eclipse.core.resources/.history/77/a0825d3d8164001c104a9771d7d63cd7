@@ -1,0 +1,16 @@
+package dom.model;
+
+public class Product {
+
+	private String productId;
+	private String productName;
+	private float price;
+	public Product(String productId, String productName, float price) {
+		super();
+		this.productId = productId;
+		this.productName = productName;
+		this.price = price;
+	}
+	
+	
+}

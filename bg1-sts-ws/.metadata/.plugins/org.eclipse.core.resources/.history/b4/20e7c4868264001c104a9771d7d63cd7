@@ -1,0 +1,7 @@
+package dom.repository;
+
+import dom.model.Product;
+
+public interface ProductRepository {
+	public List<Product> findAll();
+}

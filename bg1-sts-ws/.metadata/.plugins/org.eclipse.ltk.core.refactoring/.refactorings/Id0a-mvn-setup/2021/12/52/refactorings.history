@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;dom.repository.ProductRepository&apos; to &apos;ProductRepositoryImpl&apos;&#x0D;&#x0A;- Original project: &apos;Id0a-mvn-setup&apos;&#x0D;&#x0A;- Original element: &apos;dom.repository.ProductRepository&apos;&#x0D;&#x0A;- Renamed element: &apos;dom.repository.ProductRepositoryImpl&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ProductRepository&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java&lt;dom.repository{ProductRepository.java[ProductRepository" matchStrategy="1" name="ProductRepositoryImpl" qualified="false" references="true" similarDeclarations="false" stamp="1640326294533" textual="false" version="1.0"/>
+</session>
