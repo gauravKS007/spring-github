@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\Gaurav.Kumar1\OneDrive - Brillio\Desktop\Self_Learning\bG1"/>
+			<item value="C:\Users\Gaurav.Kumar1\OneDrive - Brillio\Desktop\Self_Learning\bG1\spring-github\bg1-sts-ws\Id2e-annot-di-bean-life"/>
+			<item value="C:\Users\Gaurav.Kumar1\OneDrive - Brillio\Desktop\Self_Learning\spring-github\Id1a-xml-ioc"/>
+			<item value="C:\Users\Gaurav.Kumar1\OneDrive - Brillio\Desktop\Self_Learning\bG1\bg1-sts-ws\Id2e-annot-di-bean-life"/>
+			<item value="C:\Users\Gaurav.Kumar1\OneDrive - Brillio\Desktop\Self_Learning\bG1\bg1-sts-ws"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>
