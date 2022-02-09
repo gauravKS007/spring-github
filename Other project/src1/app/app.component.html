@@ -1,0 +1,38 @@
+<!-- HeaderComponent to be displayed as part of AppComponent -->
+<app-header></app-header>
+
+<!-- Label to display any error messages -->
+<label class="error-message">{{ errMessage }}</label>
+
+<!-- To add notes -->
+<mat-expansion-panel class="noteInputContainer">
+  <mat-expansion-panel-header>
+    <mat-panel-title>
+      Take a note
+    </mat-panel-title>
+  </mat-expansion-panel-header>
+  <div class="noteInputs">
+    <mat-form-field>
+      <input matInput [(ngModel)]='note.title' placeholder="Title" value="Title" name="title">
+      <!--<input matInput placeholder="Enter Note Title">-->
+    </mat-form-field>
+    <mat-form-field>
+      <textarea matInput [(ngModel)]='note.text' placeholder="Text" name="text"></textarea>
+      <!--<textarea  matInput placeholder="Enter Note Title"></textarea>-->
+    </mat-form-field>
+  </div>
+  <div class="noteSubmit">
+    <button mat-button (click)="takeNote()">Done</button>
+
+  </div>
+
+</mat-expansion-panel>
+<div class="noteCardConainer" *ngIf="notes && notes.length">
+  <mat-card *ngFor="let note of notes">
+    <mat-card-title>{{note.title}}</mat-card-title>
+    <mat-card-content>{{note.text}}</mat-card-content>
+  </mat-card>
+</div>
+
+
+<!-- Load and display the collection of notes from server as Material Cards with card title set to note title and card content set to note text  -->

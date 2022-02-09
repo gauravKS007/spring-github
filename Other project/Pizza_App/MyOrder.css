@@ -1,0 +1,122 @@
+.JV-wt3{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+._3p9Ct9{
+    width: 250px;
+}
+._3E8aIl{
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 8%);
+}
+._1ejeYK{
+    width: 250px;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    padding-bottom: 8px;
+    line-height: 24px;
+}
+._1Rot47{
+    padding: 8px 16px;
+}
+.B7BJU0{
+    font-weight: 500;
+    font-size: 20px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+.Okfx8U{
+    padding: 0 16px;
+    border-top: 1px solid #f8f8f8;
+}
+._2MvS62{
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 8px 0;
+}
+.O1ypae{
+    display: flex;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+._2iDkf8{
+    cursor: pointer;
+    position: relative;
+    display: block;
+}
+._2-BSLO{
+    height: 12px;
+    width: 12px;
+    flex: 0 0 auto;
+}
+._30VH1S{
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+._24_Dny{
+    position: relative;
+    width: 14px;
+    height: 14px;
+    background-color: transparent;
+    border: 1.4px solid #c2c2c2;
+    border-radius: 1.5px;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.YeQMM{
+    margin-left: 10px;
+    flex: 1;
+}
+.Okfx8U{
+    padding: 0 16px;
+    border-top: 1px solid #f8f8f8;
+}
+.myorder__list{
+    text-align: center;
+    margin-left: 310px;
+}
+.order__search{
+    display:flex;
+    flex:1;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: -20px;
+   margin-left: 50px;
+    
+}
+.order__searchInput{
+    height: 12px;
+    padding: 10px;
+    border: none;
+    
+}
+.order__searchIcon{
+    padding: 5px;
+    height: 22px !important;
+    background-color: #2874f0;
+}
+.explore__button{
+    background-color:rgb(101,171,11);
+    color: rgb(255,255,255);
+    border: 1px solid rgb(101,171,11);
+    height: 40px;
+    width:210px;
+    margin-top: 20px;
+}
+.button__span{
+    text-transform: uppercase;
+    font-weight: 600;
+
+}

@@ -1,0 +1,29 @@
+<label class="error-message">{{submitMessage}}</label>
+<form [formGroup]="loginForm" (ngSubmit)='loginSubmit()'>
+    <div>
+        <label for="username">User Name</label>
+        <!--<input type="text" placeholder="Enter User Name" [formControl]='username'>-->
+        <input class="username" type="text" matInput placeholder="Enter User Name" formControlName='username'>
+        <small *ngIf="username.invalid && (username.dirty || username.touched)">
+            Username is a mandatory field
+        </small>
+    </div>
+    <div>
+        <label for="password">Password</label>
+        <!--<input type="password" placeholder="Enter Password" [formControl]='password'>-->
+        <input class="password" type="password" matInput placeholder="Enter Password" formControlName='password'>
+        <small *ngIf="password.invalid && (password.dirty || password.touched)">
+            <small *ngIf="password.errors.required">
+                Password should not be blank
+            </small>
+        <small *ngIf="password.errors.minlength">
+                Password should be minimun of 6 characters
+            </small>
+        </small>
+    </div>
+    <div>
+        <!--<input class="submit" type="submit" [disabled]="!loginForm.valid" value="Submit">-->
+        <input class="submit" type="submit" value="Submit">
+        <!--<input type="submit" value="Submit">-->
+    </div>
+</form>

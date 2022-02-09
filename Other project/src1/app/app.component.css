@@ -1,0 +1,21 @@
+.noteInputContainer{
+    width: 50vw;
+    margin: auto;
+    margin-top: 40px;
+}
+.noteInputs{
+    display: flex;
+    flex-direction: column;
+}
+.noteSubmit{
+    display: flex;
+}
+.noteCard{
+    width: 10vw;
+    margin: 10px;
+    border: 1px sandybrown;
+}
+.noteCardConainer{
+    display: flex;
+    flex-wrap: wrap;
+}
