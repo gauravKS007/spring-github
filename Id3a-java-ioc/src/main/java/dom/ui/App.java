@@ -14,7 +14,7 @@ import dom.repository.ProductRepositoryImpl;
 public class App {
 	public static void main(String[] args) {
 		System.out.println("Starter Enterprise setup");
-		
+		// using config class for accesssing the jav configuration
 		ApplicationContext applicationContext = new AnnotationConfigApplicationContext(AppConfig.class);
 		ProductRepository productRepository = (ProductRepository) applicationContext.getBean("productRepository");
 		productRepository.findAll().forEach(System.out::println);
