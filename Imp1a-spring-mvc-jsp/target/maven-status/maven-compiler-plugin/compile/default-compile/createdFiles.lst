@@ -1,0 +1,4 @@
+dom\repository\ProductRepository.class
+dom\controller\ProductController.class
+dom\model\Product.class
+dom\web\TestServlet.class
